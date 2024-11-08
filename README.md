@@ -1,6 +1,7 @@
 # User-Behavior-Analysis-and-Video-Recommendation-System
 This project titled "User Behavior Analysis and Video Recommendation System" aims to build an intelligent video recommendation system using a combination of K-Means Clustering and LSTM (Long Short-Term Memory) models to analyze user behavior and predict personalized video recommendations.
 <br>
+<br>
 This system designed to analyze user behavior and provide personalized video recommendations using clustering and sequential modeling techniques. This project utilizes machine learning methods to group users based on behavior patterns and recommend content that aligns with their viewing preferences.
 
 ## Table of Contents
