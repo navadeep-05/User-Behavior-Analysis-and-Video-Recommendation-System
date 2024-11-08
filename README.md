@@ -89,4 +89,4 @@ Contributions are welcome! Please follow these steps:
 4. Submit a pull request.
 
 ## License
-This project is licensed under the Software License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the  Boost Software License - Version 1.0. See the [LICENSE](LICENSE) file for details.
