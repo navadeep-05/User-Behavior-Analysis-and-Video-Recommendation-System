@@ -19,7 +19,7 @@ dataset_path = "streaming_data.csv"
 df = pd.read_csv(dataset_path)
 
 # Provide a download button for this predefined dataset
-st.sidebar.markdown("<br><br><br><br><br>", unsafe_allow_html=True)
+st.sidebar.markdown("<br><br><br><br>", unsafe_allow_html=True)
 st.sidebar.markdown("**This is the default dataset. Only this streaming dataset works with this application. Download the file below:**")
 csv_data = df.to_csv(index=False).encode('utf-8')
 st.sidebar.download_button(
