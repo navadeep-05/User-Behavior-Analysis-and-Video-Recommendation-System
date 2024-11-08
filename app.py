@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 
-st.set_page_config(page_title="User Behavior Analysis App", layout="wide", page_icon = "D:\MLT_usecase\page logo.jpg", initial_sidebar_state="expanded")
+st.set_page_config(page_title="User Behavior Analysis App", layout="wide", page_icon = "page logo.jpg", initial_sidebar_state="expanded")
 
 st.sidebar.title("Dashboard")
 st.sidebar.markdown("---")    
