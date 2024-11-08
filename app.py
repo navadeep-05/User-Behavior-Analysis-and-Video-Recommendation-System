@@ -29,7 +29,20 @@ st.sidebar.download_button(
     mime="text/csv"
 )
 if page == "Home":
-    st.title("User Behavior Analysis and Video Recommendation System 👥")
+    st.markdown("""
+    <style>
+    .custom-text {
+        font-size: 50px;
+        font-weight: bold;
+        color: #000000; /* Streamlit's brand color */
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    </style>
+    <div class="custom-text">User Behavior Analysis and Video Recommendation System 👥</div>
+    """, unsafe_allow_html=True)
+    image_path = "banner image.jpg" 
+    st.image(image_path, use_column_width=True)
     st.write("Using K-Means Clustering and RNN/LSTM for user segmentation and recommendations.")
 
     # Initialize session state for buttons and selected user ID
