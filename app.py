@@ -45,7 +45,7 @@ if page == "Home":
         font-family: Arial, sans-serif;
     }
     </style>
-    <div class="custom-text">User Behavior Analysis and Video Recommendation System</div>
+    <div class="custom-text">User Behavior Analysis and Video Recommendation System 👥</div>
     """, unsafe_allow_html=True)
     st.write("---")
     image_path = "banner image.jpg" 
@@ -74,7 +74,6 @@ if page == "Home":
         # Fill missing values
         df['Duration_Watched (minutes)'].fillna(df['Duration_Watched (minutes)'].mean(), inplace=True)
         df['Ratings'].fillna(df['Ratings'].mode()[0], inplace=True)
-
         df = pd.get_dummies(df, columns=['Genre', 'Playback_Quality', 'Subscription_Status', 'Device_Type', 'Languages'], drop_first=True)
         st.subheader("Data after Preprocessing:")
         st.write(df.head())
