@@ -28,13 +28,19 @@ st.sidebar.download_button(
     file_name="streaming_data.csv",
     mime="text/csv"
 )
+
+def get_text_color():
+    if st.get_option("theme.base") == "dark":
+        return "#FFFFFF"
+    return "#000000"
+
 if page == "Home":
     st.markdown("""
     <style>
     .custom-text {
         font-size: 50px;
         font-weight: bold;
-        color: #000000; /* Streamlit's brand color */
+        color: {get_text_color()}; 
         text-align: center;
         font-family: Arial, sans-serif;
     }
