@@ -45,7 +45,7 @@ if page == "Home":
         font-family: Arial, sans-serif;
     }
     </style>
-    <div class="custom-text">User Behavior Analysis and Video Recommendation System 👥</div>
+    <div class="custom-text">User Behavior Analysis and Video Recommendation System </div>
     """, unsafe_allow_html=True)
     st.write("---")
     image_path = "banner image.jpg" 
