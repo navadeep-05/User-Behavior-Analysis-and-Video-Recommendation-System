@@ -49,7 +49,7 @@ if page == "Home":
     """, unsafe_allow_html=True)
     st.write("---")
     image_path = "banner image.jpg" 
-    st.image(image_path, use_column_width=True)
+    st.image(image_path, use_container_width=True)
     st.write("Using K-Means Clustering and RNN/LSTM for user segmentation and recommendations.")
 
     # Initialize session state for buttons and selected user ID
