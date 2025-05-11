@@ -288,13 +288,6 @@ st.markdown("""
         transform: scale(1.05);
     }
             
-    .stSidebar {background-color: #f0f4fc;}
-    .stDownloadButton button {
-        background-color: #008CBA;
-        color: white;
-        border-radius: 8px;
-        padding: 10px 20px;
-    }
     .stDownloadButton button:hover {
         background-color: #007bb5;
     }
